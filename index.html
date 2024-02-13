@@ -9,20 +9,26 @@
     <body>
         <main>
             <!-- Section 1-->
-            <section id="hero">
-                <div class="sm-area">
-                    <img class="sm" src="images/simple-sm-inv.png">
-                    <div class="name-text">An <br>Nguyen-Trinh</div>
-                </div>
+            <section>
+                <div class="hero">
+                    <div class="sm-area column">
+                        <img class="sm" src="images/sewing-machine-sew-svgrepo-com.svg">
+                        <br>
+                        <div class="name-text">An <br>Nguyen-Trinh</div>
+                    </div>
 
-                <div class="heroContainer">
-                    <div class="heroText">
+                    <div class="heroContainer column ">
+                        <div class="heroText">
                         <h3>
                             I am an fourth-year undergraduate student at University of Toronto - St. George Campus pursuing a Computer Science degree with a focus in Artificial Intelligence. I am interested in a wide variety of interests professionally and personally. For example, I am interested in data science because I love to explore and understand patterns. This is also the reason I am interested in machine learning. I enjoy the challenging of identifying and understanding a pattern in order to solve a complex problem. Personally, I enjoy creating things with my hands and demonstrating my creativity. Throughout the years, I have taught myself how to crochet, sew, paint, sculpt using clay, and knit.
                         </h3>
-                        <h3>A mentor once told me:</h3>
-                        <h3 class="quote">"Don't mention your sewing hobby in a professional setting as they might think you're a loner who doesn't work well in a team environment."</h3>
-                        <h3>I have been perplexed by this statement ever since because I believe that my hobby and computer science share more similarities than differences.</h3>
+                        <hr class="heroDivider">
+                        <div class="hook">
+                            <h3>A mentor once told me:</h3>
+                            <h3 class="quote">"Don't mention your sewing hobby in a professional setting as they might think you're a loner who doesn't work well in a team environment."</h3>
+                            <h3>I have been perplexed by this statement ever since because I believe that my hobby and computer science share more similarities than differences.</h3>
+                        </div>
+                        </div>
                     </div>
                 </div>
                 <div class="arrow animated bounce"></div>
@@ -125,7 +131,7 @@
                 <div class="row">
                 <div class="column">
                     <!-- <img src="sew_mach(1).jpeg" style="width:100%"> -->
-                    <div class="explanation">Fix identified problems such as a misaligned seam or a pattern error</div>
+                    <div class="explanation">Fix identified problems such as a misaligned seam <br>or a pattern error</div>
                 </div>
                 <div class="column">
                     <!-- <img src="sew_mach(2).jpeg" style="width:100%"> -->
@@ -161,31 +167,31 @@
                 <div class="container">
                     <h2 class="title">Other Projects</h2>  
                     <div class="quote">Academic Assessment Predictor</div>
-                    <hr>
+                    <hr class="project">
                     <p>
                         In a team of 3, built k-Nearest Neighbor, Item Response Theory, and Neural Networks algorithms to predict whether a student can correctly answer a specific diagnostic question based on the student’s previous answers to other questions and other students’ responses. The best performing algorithm achieved a 69% accuracy. Programmed using Sklearn, Numpy, Matplotlib, SciPy, and PyTorch.
                     </p>
                 
                     <div class="quote">University of Toronto Technology Leadership Initiative Program</div>
-                    <hr>
+                    <hr class="project">
                     <p>
-                        In collaboration with industry partner Senso.ai, developed a program in a team of 4 to recommend automobiles to consumers by leveraging data analytics on the consumers' bank transaction patterns. Web application developed using Amazon AWS (EC2, RDS, Amplify), Spring Boot Java Framework, MySQL, and React. Selected as 1 of 23 students of the competitive TLI program based on strong leadership and technological skills to be given enhanced courses and industry experience at U of T.
+                        In collaboration with industry partner Senso.ai, developed a program in a team of 4 to recommend automobiles to consumers by leveraging data analytics on the consumers' bank transaction patterns. Web application developed using Amazon AWS (EC2, RDS, Amplify), Spring Boot Java Framework, MySQL, and React. Selected as 1 of 23 students of the competitive TLI program based on strong leadership and technological skills to be given enhanced courses and industry experience at University of Toronto.
                     </p>
                 
                     <div class="quote">Thought Leadership Branding Club (TLBC) Social Audio Event Management Application</div>
-                    <hr>
+                    <hr class="project">
 
                     <p>
                         In a team of 7, developed a web application for TLBC that accumulates audio space events from multiple audio spaces (LinkedIn, Twitter, Clubhouse) with sorting functions to help users become aware of and organize upcoming and current events. Web application developed using Heroku, MongoDB, Django, and React. Managed the team and acted as the ScrumMaster. Duties included hosting and leading meetings, liaising between project team and TLBC, and facilitating healthy communication between team members.
                     </p>
                 
                     <div class="quote"> Wildfire Predictor</div>
-                    <hr>
+                    <hr class="project">
                     <p>
                         Invented a program with 3 partners to predict the wildfire count for given state in the U.S. in any given year.
                     </p>
                     <div class="quote">Connect Four the Game</div>
-                    <hr>
+                    <hr class="project">
                     <p>
                         Developed an AI player  that can play the game Connect 4 against a human player. The game was implemented  using Python, Numpy, and Pygame.
                     </p>
@@ -195,11 +201,12 @@
             <!-- Section 4-->
             <section id="contact">
                 <div class="container">
-                    <h2 class="title">Contact</h2>  
-                    <h3><span class="emoji">&#9993</span>&ensp;an.nguyentrinh7366@gmail.com
-                    <br>
-                    &#9743&ensp;647-513-7366
-                    </h3>
+                    <h2 class="title">Contact</h2> 
+                    <ul class="contact_list">
+                        <li><a href="mailto:an.nguyentrinh7366@gmail.com"><img class="emoji" src="images/email-svgrepo-com.svg">&ensp;an.nguyentrinh7366@gmail.com</a></li>
+                        <li><img class="emoji" src="images/phone-svgrepo-com.svg">&ensp;647-513-7366</li>
+                        <li><a href="https://github.com/nguya03584"><img class="emoji" src="images/github-mark.svg">&ensp;GitHub</a></li>
+                    </ul>
                 </div>
             </section>
         </main>
